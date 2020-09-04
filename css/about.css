@@ -72,9 +72,9 @@ header {
 }
 
 header nav {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
-    width: 40%;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
 }
@@ -82,6 +82,14 @@ header nav {
 header nav a {
     text-decoration: none;
     color: black
+}
+
+header nav img {
+
+}
+
+header div {
+
 }
 /* end header styling */
 .container {
@@ -104,6 +112,8 @@ header nav a {
 }
 
 .middle-content {
+    display: flex;
+    flex-flow: row wrap;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
