@@ -100,18 +100,18 @@ header nav a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
-    
 }
 
 .top-content .text-container {
     width: 48%;
     padding: 5% auto;
-    margin: 5% auto;
-   
+    margin: 2% auto;
 }
 
-.top-content .text-container .about {
-    width: 100%
+.text-container-about {
+    width: 98%;
+    padding: 2%;
+    margin: 2% auto;
 }
 
 /* end conainer styling */
@@ -182,35 +182,35 @@ header nav a {
     background-color: dodgerblue;
 }
 
-.middle-content-about {
-    display: flex; 
-    flex-wrap: wrap; 
-  }
-  .middle-content .about-page {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      margin: 10%;
-      padding: 5%  
-  }
-  
-  .middle-content .about-page div {
-      flex-direction: column;
-      height: 100px;
-      margin: 20px 2.5%;
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-  }
-  
-  .middle-content .about-page .button {
-      border: 1px solid black;
-      border-radius: 25%;
-      padding: 1rem;
-      width: 15%
-  }
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.about-page {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    padding: 3% 0;
+    margin: 3% 0;
+    border-bottom: 1px dashed black;
+}
+
+.about-page h2 {
+    margin-top: 3%;
+}
+.about-page button {
+    width: 30%;
+    border-radius: 15%;
+    padding: 2%;
+    margin: 2% 0;
+}
   
 /* end middle content styling */
+/* bottom content */
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -224,10 +224,15 @@ header nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+.bottom-content .text-container-foot {
+    width: 98%;
+    margin: 2% auto;
+}
 /* end bottom syling */
 /* footer styling */
 footer {
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
     background: black;
 }
 
