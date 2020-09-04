@@ -79,11 +79,16 @@ header nav {
     align-items: center;
 }
 
+header nav img {
+    margin-bottom: 2%;
+}
+
 header nav a {
     text-decoration: none;
     color: black
 }
 /* end header styling */
+/* container styling */
 .container {
     width: 800px;
     margin: 0 auto;
@@ -99,10 +104,15 @@ header nav a {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
+    padding: 2% auto;
 }
 
+.top-content .text-container .about {
+    width: 100%
+}
+
+/* end conainer styling */
+/* middle content styling */
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -130,16 +140,21 @@ header nav a {
     justify-content: center;
 }
 
-.box1 {
+.middle-content .boxes .box .box1  {
     background: teal;
 }
 
-.box2 {
-    background: gold;
+.middle-content .about-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.box3 {
-    background: cadetblue;
+.middle-content .about-page div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
 }
 
 .bottom-content {
